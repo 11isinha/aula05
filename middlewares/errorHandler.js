@@ -6,4 +6,4 @@ const errorHandler = (err, req, res, next) => {
         detalhe:err.message
     });
 };
-module.exports = errorHandlerMiddleware;
+module.exports = errorHandler;
